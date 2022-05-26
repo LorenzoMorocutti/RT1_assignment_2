@@ -15,7 +15,7 @@ It's possible to download the workspace from the repository provided by the prof
 * run the control node, otherwise the robot won't move, through the command `rosrun second_assignment control_node`;
 * run, if we desire to communicate with the robot (not mandatory, the robot will be able to complete a lap on his own), the interaction node through the command `rosrun second_assignment interaction_node` to be able tho change its speed/reset is position to the start.
 
-After having launched all the nodes, the node graph will look like this: ![immagine](/MicrosoftTeams-image.jpeg).
+After having launched all the nodes, the node graph will look like this: ![immagine](MicrosoftTeams-image.jpeg).
 
 ## Stageros node
 
