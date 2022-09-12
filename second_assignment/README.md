@@ -32,7 +32,7 @@ The script associated to the control_node, is structured as follows:
 
 Here I report the flow chart of the code:
 
-![immagine](control_flawchart.jpg).
+![immagine](control_flowchart.jpg).
 
 ## Interaction node
 
@@ -43,7 +43,7 @@ The script associated to the interaction_node, is structured as follows:
 
 Here I report the flow chart of the code:
 
-![immagine](interaction_flowchart.jpg).
+![immagine](interaction_flawchart.jpg).
 
 ## Conclusions
 
