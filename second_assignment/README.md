@@ -28,12 +28,20 @@ The script associated to the control_node, is structured as follows:
 * `controllerCallback` function, where, after having acquired the distances to the walls, there are all the instructions to drive the robot safely through the map (that comprehends also the `check_wall` functions) to publish the velocity on the `cmd_vel` topic;
 * `uiCallback` function, where we read the user input and manage the robots speed/position accordingly.
 
+Here I report the flow chart of the code:
+
+![immagine](control_flowchart.jpg)
+
 ## Interaction node
 
 The script associated to the interaction_node, is structured as follows:
 * `main` function, where there are all the initializations, subscriptions to the topics and the definition of the client for the interaction aspect;
 * `interactionCallback` function, where we send the command chosen by the user to the server
 * `GetUserInput` function, where we print the rules for the user and acquire the input (`w` to increase the speed, `s` to decrease the speed and `r` o reset the robot's position).
+
+Here I report the flow chart of the code:
+
+![immagine](interaction_flowchart.jpg)
 
 ## Conclusions
 
