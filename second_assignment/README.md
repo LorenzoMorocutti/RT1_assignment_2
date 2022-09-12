@@ -17,7 +17,7 @@ It's possible to download the workspace from the repository provided by the prof
 
 After having launched all the nodes, the node graph will look like this: 
 
-![immagine](MicrosoftTeams-image.jpeg).
+![immagine](MicrosoftTeams-image.jpg).
 
 ## Stageros node
 
